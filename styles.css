@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #f8c471;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    color: black; /* Mengubah warna teks menjadi hitam */
+}
+.button {
+    text-decoration: none; /* Menghilangkan garis bawah default */
+    color: #fff; /* Warna teks tombol */
+    background-color: #28a745; /* Warna latar belakang tombol */
+    padding: 12px 24px; /* Padding untuk tombol */
+    border-radius: 5px; /* Sudut melengkung */
+    font-size: 16px; /* Ukuran font */
+    font-weight: bold; /* Menebalkan teks */
+    border: none; /* Menghilangkan border default */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Transisi halus untuk efek */
+}
+
+.button:hover {
+    background-color: #218838; /* Warna latar belakang saat hover */
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+    transform: translateY(-2px); /* Mengangkat tombol sedikit saat hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat hover */
+}
+
+.button:focus {
+    outline: none; /* Menghilangkan outline default */
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Menambahkan bayangan saat fokus */
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghilangkan padding */
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item dalam satu baris */
+    margin-right: 20px; /* Jarak antar item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah default */
+    color: #000; /* Warna teks */
+    transition: text-decoration 0.3s; /* Transisi halus untuk efek */
+}
+
+/* Efek hover */
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover atau aktif */
+}
+
+/* Gaya untuk bagian hero */
+.hero {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Menyebar konten */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    padding: 20px; /* Padding untuk bagian hero */
+}
+
+.hero-text {
+    max-width: 50%; /* Membatasi lebar teks */
+}
+
+.hero-image img {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Mempertahankan rasio aspek */
+}
+
+/* Gaya untuk bagian lainnya */
+section {
+    padding: 20px; /* Padding untuk setiap bagian */
+}
+
+h2 {
+    color: #333; /* Warna untuk judul */
+}
+
+blockquote {
+    font-style: italic; /* Gaya italic untuk testimoni */
+    margin: 20px 0; /* Margin untuk testimoni */
+}
+
+/* Gaya untuk formulir */
+form {
+    display: flex; /* Menggunakan flexbox untuk tata letak formulir */
+    flex-direction: column; /* Mengatur elemen dalam kolom */
+}
+
+form label {
+    margin: 10px 0 5px; /* Margin untuk label */
+}
+
+form input, form textarea {
+    padding: 10px; /* Padding untuk input dan textarea */
+    border: 1px solid #ccc; /* Border untuk input dan textarea */
+    border-radius: 4px; /* Sudut melengkung */
+}
+
+form button {
+    margin-top: 10px; /* Margin atas untuk tombol */
+    padding: 10px; /* Padding untuk tombol */
+    background-color: #28a745; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 4px; /* Sudut melengkung */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+}
+
+form button:hover {
+    background-color: #218838; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center; /* Menyelaraskan teks di tengah */
+    padding: 20px; /* Padding untuk footer */
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    color: #d35400;
+}
+
+.button {
+    background: #d35400;
+    color: #fff;
+    padding: 
